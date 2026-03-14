@@ -29,9 +29,7 @@ export default function MyComponent() {
 							canPreventDefault: true,
 						});
 
-						if (event.defaultPrevented) {
-							preventDefault();
-						} else {
+						if (!event.defaultPrevented) {
 							navigation.dispatch({
 								...CommonActions.navigate(route.name, route.params),
 								target: state.key,

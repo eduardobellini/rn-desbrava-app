@@ -1,4 +1,4 @@
-package com.rndesbravaapp
+package com.anonymous.rndesbravaapp
 
 import android.os.Build
 import android.os.Bundle
